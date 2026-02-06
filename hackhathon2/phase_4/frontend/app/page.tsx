@@ -9,7 +9,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section id="home" className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white">
+      <section id="home" className="relative overflow-hidden bg-linear-to-br from-blue-600 via-purple-600 to-pink-600 text-white">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
 
         {/* Animated background blobs */}
@@ -24,7 +24,7 @@ export default function LandingPage() {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in-down">
               Organize Your Life,
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-pink-200 animate-pulse-glow">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-200 to-pink-200 animate-pulse-glow">
                 One Task at a Time
               </span>
             </h1>
@@ -77,7 +77,7 @@ export default function LandingPage() {
       <section id="features" className="py-20 md:py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900 animate-fade-in-up">
-            Why ChooseThunderAi?
+            Why Choose TaskFlow?
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
             Everything you need to stay organized and productive, all in one place
@@ -87,7 +87,7 @@ export default function LandingPage() {
             {/* Feature 1 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-200 hover:border-blue-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <CheckCircle2 className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Simple & Intuitive</CardTitle>
@@ -103,7 +103,7 @@ export default function LandingPage() {
             {/* Feature 2 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-400 hover:border-purple-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Secure & Private</CardTitle>
@@ -119,7 +119,7 @@ export default function LandingPage() {
             {/* Feature 3 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-600 hover:border-pink-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Fast & Reliable</CardTitle>
@@ -135,7 +135,7 @@ export default function LandingPage() {
             {/* Feature 4 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-800 hover:border-green-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <Filter className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Smart Organization</CardTitle>
@@ -151,7 +151,7 @@ export default function LandingPage() {
             {/* Feature 5 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-1000 hover:border-orange-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <Smartphone className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Cross-Platform</CardTitle>
@@ -167,7 +167,7 @@ export default function LandingPage() {
             {/* Feature 6 */}
             <Card className="border-2 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-fade-in-up animation-delay-1000 hover:border-red-300">
               <CardHeader>
-                <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
+                <div className="w-12 h-12 bg-linear-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center mb-4 transform transition-all duration-300 hover:scale-110 hover:rotate-6">
                   <RefreshCw className="w-6 h-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Real-time Sync</CardTitle>
@@ -194,7 +194,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Step 1 */}
             <div className="text-center animate-fade-in-up animation-delay-200 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float">
+              <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float">
                 <span className="text-2xl font-bold text-white">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-blue-600">Sign Up Free</h3>
@@ -205,7 +205,7 @@ export default function LandingPage() {
 
             {/* Step 2 */}
             <div className="text-center animate-fade-in-up animation-delay-400 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-200">
+              <div className="w-16 h-16 bg-linear-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-200">
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-purple-600">Add Your Tasks</h3>
@@ -216,7 +216,7 @@ export default function LandingPage() {
 
             {/* Step 3 */}
             <div className="text-center animate-fade-in-up animation-delay-600 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-400">
+              <div className="w-16 h-16 bg-linear-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-400">
                 <span className="text-2xl font-bold text-white">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-pink-600">Stay Organized</h3>
@@ -227,7 +227,7 @@ export default function LandingPage() {
 
             {/* Step 4 */}
             <div className="text-center animate-fade-in-up animation-delay-800 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-600">
+              <div className="w-16 h-16 bg-linear-to-br from-red-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 animate-float animation-delay-600">
                 <span className="text-2xl font-bold text-white">4</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 transition-colors duration-300 group-hover:text-red-600">Get Things Done</h3>
@@ -240,13 +240,13 @@ export default function LandingPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 md:py-24 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="py-20 md:py-24 bg-linear-to-br from-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 animate-fade-in-up">
             Loved by Thousands of Users
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
-            See what our users have to say aboutThunderAi
+            See what our users have to say about TaskFlow
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -262,7 +262,7 @@ export default function LandingPage() {
                 Simple, fast, and exactly what I needed!"
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-purple-400 rounded-full mr-3 animate-pulse"></div>
+                <div className="w-10 h-10 bg-linear-to-br from-blue-400 to-purple-400 rounded-full mr-3 animate-pulse"></div>
                 <div>
                   <div className="font-semibold">Sarah Johnson</div>
                   <div className="text-sm text-gray-500">Product Manager</div>
@@ -282,7 +282,7 @@ export default function LandingPage() {
                 Clean interface and powerful features."
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full mr-3 animate-pulse animation-delay-200"></div>
+                <div className="w-10 h-10 bg-linear-to-br from-purple-400 to-pink-400 rounded-full mr-3 animate-pulse animation-delay-200"></div>
                 <div>
                   <div className="font-semibold">Michael Chen</div>
                   <div className="text-sm text-gray-500">Software Engineer</div>
@@ -302,7 +302,7 @@ export default function LandingPage() {
                 The security and privacy features give me peace of mind."
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-gradient-to-br from-pink-400 to-red-400 rounded-full mr-3 animate-pulse animation-delay-400"></div>
+                <div className="w-10 h-10 bg-linear-to-br from-pink-400 to-red-400 rounded-full mr-3 animate-pulse animation-delay-400"></div>
                 <div>
                   <div className="font-semibold">Emily Rodriguez</div>
                   <div className="text-sm text-gray-500">Freelance Designer</div>
@@ -333,19 +333,19 @@ export default function LandingPage() {
               <p className="text-gray-600 mb-6">Perfect for personal use</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Unlimited tasks</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Basic filters</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Mobile access</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Secure encryption</span>
                 </li>
               </ul>
@@ -359,7 +359,7 @@ export default function LandingPage() {
             {/* Pro Plan */}
             <Card className="border-4 border-blue-500 p-8 relative hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-4 animate-fade-in-up animation-delay-400 hover:border-purple-500">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
+                <span className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
                   Most Popular
                 </span>
               </div>
@@ -370,27 +370,27 @@ export default function LandingPage() {
               <p className="text-gray-600 mb-6">For power users</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Everything in Free</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Advanced filters</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Priority support</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Custom themes</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Export data</span>
                 </li>
               </ul>
-              <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg" size="lg">
+              <Button className="w-full bg-linear-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:scale-105 hover:shadow-lg" size="lg">
                 Upgrade to Pro
               </Button>
             </Card>
@@ -404,23 +404,23 @@ export default function LandingPage() {
               <p className="text-gray-600 mb-6">For teams & collaboration</p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Everything in Pro</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Up to 10 users</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Shared workspaces</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Team analytics</span>
                 </li>
                 <li className="flex items-center transform transition-all duration-300 hover:translate-x-2">
-                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 shrink-0" />
                   <span>Admin controls</span>
                 </li>
               </ul>
@@ -439,7 +439,7 @@ export default function LandingPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 animate-fade-in-up animation-delay-200">
-            Everything you need to know aboutThunderAi
+            Everything you need to know about TaskFlow
           </p>
 
           <div className="space-y-6">
@@ -508,7 +508,7 @@ export default function LandingPage() {
             {/* Brand Column */}
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-linear-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
                   <CheckCircle2 className="w-5 h-5 text-white" />
                 </div>
                 <h3 className="text-white font-bold text-xl">TaskFlow</h3>
@@ -562,7 +562,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>© {new Date().getFullYear()}ThunderAi. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} TaskFlow. All rights reserved.</p>
             <p className="mt-2 text-gray-500">
               Built with Next.js, FastAPI, and PostgreSQL
             </p>

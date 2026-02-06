@@ -21,7 +21,7 @@ export default function LandingPage() {
           <div className="backdrop-blur-2xl bg-white/10 border border-blue-200/20 rounded-3xl shadow-2xl p-10 md:p-20 flex flex-col items-center gap-8 animate-fade-in-down" style={{boxShadow:'0 8px 64px 0 rgba(0,80,255,0.25)'}}>
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-cyan-200 to-blue-400 animate-pulse-glow drop-shadow-[0_2px_24px_rgba(0,180,255,0.5)]">
               Elevate Your Productivity<br/>
-              <span className="block text-blue-100/90 bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-200 to-blue-400 animate-glow">withThunderAi's Power</span>
+              <span className="block text-blue-100/90 bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-200 to-blue-400 animate-glow">with TaskFlow's Power</span>
             </h1>
             <p className="text-2xl md:text-3xl text-blue-100/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200 drop-shadow-[0_2px_12px_rgba(0,180,255,0.2)]">
               Experience a next-generation bluish task manager.<br/>Stay organized, inspired, and in control—every day.
@@ -69,7 +69,7 @@ export default function LandingPage() {
       <section id="features" className="py-20 md:py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900 animate-fade-in-up">
-            Why ChooseThunderAi?
+            Why Choose TaskFlow?
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
             Everything you need to stay organized and productive, all in one place
@@ -238,7 +238,7 @@ export default function LandingPage() {
             Loved by Thousands of Users
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
-            See what our users have to say aboutThunderAi
+            See what our users have to say about TaskFlow
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -431,7 +431,7 @@ export default function LandingPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 animate-fade-in-up animation-delay-200">
-            Everything you need to know aboutThunderAi
+            Everything you need to know about TaskFlow
           </p>
 
           <div className="space-y-6">
@@ -554,7 +554,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>© {new Date().getFullYear()}ThunderAi. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} TaskFlow. All rights reserved.</p>
             <p className="mt-2 text-gray-500">
               Built with Next.js, FastAPI, and PostgreSQL
             </p>

@@ -81,11 +81,7 @@ export default function Navbar() {
               className="text-gray-700 hover:text-blue-600 transition-colors"
               aria-label="Toggle menu"
             >
-              {isMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
@@ -98,6 +94,16 @@ export default function Navbar() {
             <button
               onClick={() => scrollToSection("features")}
               className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
+                        <Link href="/signin">
+                          <Button variant="ghost" className="w-full font-medium mt-2">
+                            Sign In
+                          </Button>
+                        </Link>
+                        <Link href="/signup">
+                          <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 font-medium mt-2">
+                            Get Started
+                          </Button>
+                        </Link>
             >
               Features
             </button>
