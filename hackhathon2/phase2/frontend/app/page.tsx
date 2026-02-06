@@ -5,40 +5,33 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle2, Shield, Zap, Filter, Smartphone, RefreshCw } from "lucide-react";
 
+
 export default function LandingPage() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section id="home" className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
-
-        {/* Animated background blobs */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-          <div className="absolute top-40 right-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-blue-500 text-white relative overflow-x-hidden">
+      {/* Hero Section - Bluish Glassmorphism */}
+      <section id="home" className="relative overflow-hidden">
+        {/* Glassy, glowing, animated blobs */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-10 left-10 w-96 h-96 bg-blue-400/40 rounded-full blur-3xl opacity-60 animate-blob shadow-2xl shadow-blue-500/30"></div>
+          <div className="absolute top-1/2 right-0 w-96 h-96 bg-cyan-400/40 rounded-full blur-3xl opacity-50 animate-blob animation-delay-2000 shadow-2xl shadow-cyan-400/30"></div>
+          <div className="absolute bottom-0 left-1/3 w-[32rem] h-96 bg-blue-700/40 rounded-full blur-3xl opacity-40 animate-blob animation-delay-4000 shadow-2xl shadow-blue-700/30"></div>
         </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-32">
-          <div className="text-center space-y-8">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in-down">
-              Organize Your Life,
-              <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-pink-200 animate-pulse-glow">
-                One Task at a Time
-              </span>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-24 md:py-40 flex flex-col items-center">
+          <div className="backdrop-blur-2xl bg-white/10 border border-blue-200/20 rounded-3xl shadow-2xl p-10 md:p-20 flex flex-col items-center gap-8 animate-fade-in-down" style={{boxShadow:'0 8px 64px 0 rgba(0,80,255,0.25)'}}>
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-cyan-200 to-blue-400 animate-pulse-glow drop-shadow-[0_2px_24px_rgba(0,180,255,0.5)]">
+              Elevate Your Productivity<br/>
+              <span className="block text-blue-100/90 bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-200 to-blue-400 animate-glow">withThunderAi's Power</span>
             </h1>
-
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
-              The simple, powerful todo app that helps you stay organized and productive.
-              Join thousands of users managing their tasks effortlessly.
+            <p className="text-2xl md:text-3xl text-blue-100/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200 drop-shadow-[0_2px_12px_rgba(0,180,255,0.2)]">
+              Experience a next-generation bluish task manager.<br/>Stay organized, inspired, and in control—every day.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-fade-in-up animation-delay-400">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8 animate-fade-in-up animation-delay-400">
               <Link href="/signup">
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-white text-blue-600 hover:bg-blue-50 font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-110 hover:-translate-y-1"
+                  className="w-full sm:w-auto bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600 text-white font-bold px-10 py-6 text-xl shadow-2xl hover:scale-110 hover:shadow-blue-400/40 transition-all duration-300 rounded-full border-2 border-blue-200/30 backdrop-blur-xl"
+                  style={{boxShadow:'0 4px 32px 0 rgba(0,180,255,0.25)'}}
                 >
                   Get Started Free
                 </Button>
@@ -47,26 +40,25 @@ export default function LandingPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full sm:w-auto border-2 border-white text-black hover:bg-white/80 font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-110 hover:-translate-y-1"
+                  className="w-full sm:w-auto border-2 border-cyan-200 text-cyan-100 hover:bg-cyan-100/10 font-bold px-10 py-6 text-xl transition-all duration-300 hover:scale-110 hover:shadow-cyan-400/40 rounded-full backdrop-blur-xl"
                 >
                   Sign In
                 </Button>
               </Link>
             </div>
-
-            {/* Social Proof */}
-            <div className="flex flex-wrap items-center justify-center gap-8 pt-12 text-blue-100 animate-fade-in-up animation-delay-600">
-              <div className="text-center transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl md:text-4xl font-bold">10,000+</div>
-                <div className="text-sm md:text-base">Active Users</div>
+            {/* Social Proof - glowing cards */}
+            <div className="flex flex-wrap items-center justify-center gap-8 pt-12 animate-fade-in-up animation-delay-600">
+              <div className="text-center bg-white/10 border border-blue-200/20 rounded-2xl px-8 py-6 shadow-lg shadow-blue-400/20 backdrop-blur-xl hover:scale-110 transition-all duration-300">
+                <div className="text-4xl font-extrabold text-blue-100 drop-shadow">10,000+</div>
+                <div className="text-base text-blue-200/80">Active Users</div>
               </div>
-              <div className="text-center transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl md:text-4xl font-bold">50,000+</div>
-                <div className="text-sm md:text-base">Tasks Completed</div>
+              <div className="text-center bg-white/10 border border-blue-200/20 rounded-2xl px-8 py-6 shadow-lg shadow-blue-400/20 backdrop-blur-xl hover:scale-110 transition-all duration-300">
+                <div className="text-4xl font-extrabold text-blue-100 drop-shadow">50,000+</div>
+                <div className="text-base text-blue-200/80">Tasks Completed</div>
               </div>
-              <div className="text-center transform transition-all duration-300 hover:scale-110">
-                <div className="text-3xl md:text-4xl font-bold">4.9/5</div>
-                <div className="text-sm md:text-base">User Rating</div>
+              <div className="text-center bg-white/10 border border-blue-200/20 rounded-2xl px-8 py-6 shadow-lg shadow-blue-400/20 backdrop-blur-xl hover:scale-110 transition-all duration-300">
+                <div className="text-4xl font-extrabold text-blue-100 drop-shadow">4.9/5</div>
+                <div className="text-base text-blue-200/80">User Rating</div>
               </div>
             </div>
           </div>
@@ -77,7 +69,7 @@ export default function LandingPage() {
       <section id="features" className="py-20 md:py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900 animate-fade-in-up">
-            Why Choose TaskFlow?
+            Why ChooseThunderAi?
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
             Everything you need to stay organized and productive, all in one place
@@ -246,7 +238,7 @@ export default function LandingPage() {
             Loved by Thousands of Users
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
-            See what our users have to say about TaskFlow
+            See what our users have to say aboutThunderAi
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -439,7 +431,7 @@ export default function LandingPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 animate-fade-in-up animation-delay-200">
-            Everything you need to know about TaskFlow
+            Everything you need to know aboutThunderAi
           </p>
 
           <div className="space-y-6">
@@ -562,7 +554,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>© {new Date().getFullYear()} TaskFlow. All rights reserved.</p>
+            <p>© {new Date().getFullYear()}ThunderAi. All rights reserved.</p>
             <p className="mt-2 text-gray-500">
               Built with Next.js, FastAPI, and PostgreSQL
             </p>

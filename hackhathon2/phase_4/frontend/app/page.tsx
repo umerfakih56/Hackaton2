@@ -77,7 +77,7 @@ export default function LandingPage() {
       <section id="features" className="py-20 md:py-24 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900 animate-fade-in-up">
-            Why Choose TaskFlow?
+            Why ChooseThunderAi?
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
             Everything you need to stay organized and productive, all in one place
@@ -246,7 +246,7 @@ export default function LandingPage() {
             Loved by Thousands of Users
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
-            See what our users have to say about TaskFlow
+            See what our users have to say aboutThunderAi
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -439,7 +439,7 @@ export default function LandingPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 text-center mb-16 animate-fade-in-up animation-delay-200">
-            Everything you need to know about TaskFlow
+            Everything you need to know aboutThunderAi
           </p>
 
           <div className="space-y-6">
@@ -562,7 +562,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>© {new Date().getFullYear()} TaskFlow. All rights reserved.</p>
+            <p>© {new Date().getFullYear()}ThunderAi. All rights reserved.</p>
             <p className="mt-2 text-gray-500">
               Built with Next.js, FastAPI, and PostgreSQL
             </p>
